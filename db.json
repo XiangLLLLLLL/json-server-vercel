@@ -107,7 +107,7 @@
       }
     }
   ],
-  "products": [
+  "projects": [
     {
       "id": 1,
       "userId": 1,
@@ -128,7 +128,7 @@
       "id": 2,
       "userId": 1,
       "studioId": 1,
-      "productId": 1,
+      "projectId": 1,
       "productTitle": "愛情片",
       "productImage": "https://example.com/images/追風者.jpg",
       "otherImages": ["https://example.com/images/追風者2.jpg", "https://example.com/images/追風者3.jpg"],
@@ -145,7 +145,7 @@
   "posts": [
     {
       "id": 1,
-      "productId": 1,
+      "projectId": 1,
       "title": "456",
       "content": "content",
       "date": "date"
@@ -154,14 +154,14 @@
   "faqs": [
     {
       "id": 1,
-      "productId": 1,
+      "projectId": 1,
       "title": "title",
       "content": "content",
       "date": "date"
     },
     {
       "id": 2,
-      "productId": 2,
+      "projectId": 2,
       "title": "title",
       "content": "content",
       "date": "date"
@@ -170,7 +170,7 @@
   "comments": [
     {
       "id": 1,
-      "productId": 1,
+      "projectId": 1,
       "userId": 1,
       "title": "title",
       "content": "content",
@@ -178,17 +178,17 @@
     },
     {
       "id": 2,
-      "productId": 2,
+      "projectId": 2,
       "userId": 1,
       "title": "title",
       "content": "content",
       "date": "date"
     }
   ],
-  "platformRewards": [
+  "products": [
     {
       "id": 1,
-      "productId": 1,
+      "projectId": 1,
       "title": "項目名稱",
       "price": "金額設定",
       "contents": ["項目內容1", "項目內容2", "項目內容3"],
@@ -196,7 +196,7 @@
     },
     {
       "id": 2,
-      "productId": 2,
+      "projectId": 2,
       "title": "項目名稱2",
       "price": "金額設定2",
       "contents": ["項目內容3", "項目內容4", "項目內容5"],
@@ -224,19 +224,19 @@
       "canRefund": false,
       "canReturn": false,
       "userId": 0,
-      "productId": 0
+      "projectId": 0
     }
   ],
   "favorites": [
     {
       "id": 1,
       "userId": 1,
-      "productId": 1
+      "projectId": 1
     },
     {
       "id": 2,
       "userId": 2,
-      "productId": 1
+      "projectId": 1
     }
   ]
 }
