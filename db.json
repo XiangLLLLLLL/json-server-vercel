@@ -1,11 +1,242 @@
-{"users": [
-    
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "電子信箱",
+      "password": "密碼",
+      "userProfile": {
+        "userName": "真實姓名",
+        "nickName": "暱稱",
+        "phone": "電話",
+        "birthdate": "生日",
+        "bio": "自我介紹",
+        "userImageUrl": "大頭貼"
+      },
+      "hasStudio": false
+    },
+    {
+      "id": 2,
+      "email": "test@gmail.com",
+      "password": "15918984",
+      "userProfile": {
+        "userName": "真實姓名2",
+        "nickName": "暱稱2",
+        "phone": "電話2",
+        "birthdate": "生日2",
+        "bio": "自我介紹2",
+        "userImageUrl": "大頭貼2"
+      },
+      "hasStudio": false
+    },
+    {
+      "email": "test123@gmail.com",
+      "password": "$2a$10$U0SapFr5KOwoxxafzD/H.Oom0xtOPCoN2BR28cxuMEIMrjRJ9c.aS",
+      "userProfile": {
+        "userName": "test123",
+        "nickName": "暱稱2",
+        "phone": "電話2",
+        "birthdate": "生日2",
+        "bio": "自我介紹2",
+        "userImageUrl": "大頭貼2"
+      },
+      "hasStudio": false,
+      "id": 3
+    },
+    {
+      "email": "test12345@gmail.com",
+      "password": "$2a$10$xN5jQC2NgBphIp21SJiO2OvEYvWAJbbD2WcZHDsxzyDl7vWmTdGuS",
+      "userProfile": {
+        "userName": "真實姓名2",
+        "nickName": "暱稱2",
+        "phone": "電話2",
+        "birthdate": "生日2",
+        "bio": "自我介紹2",
+        "userImageUrl": "大頭貼2"
+      },
+      "hasStudio": false,
+      "id": 4
+    },
+    {
+      "email": "test456@gmail.com",
+      "password": "$2a$10$7340Ozx9S/LhOYrir/JpRue3BMZbd2CinzwxnMJe8rjpCGkFiORs.",
+      "userProfile": {
+        "userName": "真實姓名2",
+        "nickName": "暱稱2",
+        "phone": "電話2",
+        "birthdate": "生日2",
+        "bio": "自我介紹2",
+        "userImageUrl": "大頭貼2"
+      },
+      "hasStudio": false,
+      "id": 5
+    }
+  ],
+  "studios": [
+    {
+      "id": 1,
+      "userId": 1,
+      "studioProfile": {
+        "groupName": "團隊名稱",
+        "personResponsible": "負責人",
+        "email": "電子信箱",
+        "phone": "電話",
+        "startTime": "服務時間(起)",
+        "endTime": "服務時間(迄)",
+        "teamIntro": "團隊簡介",
+        "studioFb": "FB",
+        "studioIg": "IG",
+        "studioLine": "LINE",
+        "studioImageUrl": "大頭貼"
+      }
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "studioProfile": {
+        "groupName": "團隊名稱2",
+        "personResponsible": "負責人2",
+        "email": "電子信箱2",
+        "phone": "電話2",
+        "startTime": "服務時間(起)",
+        "endTime": "服務時間(迄)",
+        "teamIntro": "團隊簡介",
+        "studioFb": "FB",
+        "studioIg": "IG",
+        "studioLine": "LINE",
+        "studioImageUrl": "大頭貼"
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "userId": 1,
+      "studioId": 1,
+      "productTitle": "追風者",
+      "productImage": "https://example.com/images/追風者.jpg",
+      "otherImages": ["https://example.com/images/追風者2.jpg", "https://example.com/images/追風者3.jpg"],
+      "summary": "簡介",
+      "category": "類型",
+      "viewNum": "瀏覽次數",
+      "supportNum": "贊助人數",
+      "totalMoney": "目前金額",
+      "goalMoney": "目標金額",
+      "createdAt": "建立時間",
+      "content": "專案介紹"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "studioId": 1,
+      "productId": 1,
+      "productTitle": "愛情片",
+      "productImage": "https://example.com/images/追風者.jpg",
+      "otherImages": ["https://example.com/images/追風者2.jpg", "https://example.com/images/追風者3.jpg"],
+      "summary": "愛情簡介",
+      "category": "愛情",
+      "viewNum": "瀏覽次數",
+      "supportNum": "贊助人數",
+      "totalMoney": "目前金額",
+      "goalMoney": "目標金額",
+      "createdAt": "建立時間",
+      "content": "愛情專案介紹"
+    }
   ],
   "posts": [
-    { "id": 1, "title": "json-server0915", "author": "typicode" }
+    {
+      "id": 1,
+      "productId": 1,
+      "title": "456",
+      "content": "content",
+      "date": "date"
+    }
+  ],
+  "faqs": [
+    {
+      "id": 1,
+      "productId": 1,
+      "title": "title",
+      "content": "content",
+      "date": "date"
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "title": "title",
+      "content": "content",
+      "date": "date"
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+    {
+      "id": 1,
+      "productId": 1,
+      "userId": 1,
+      "title": "title",
+      "content": "content",
+      "date": "date"
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "userId": 1,
+      "title": "title",
+      "content": "content",
+      "date": "date"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "platformRewards": [
+    {
+      "id": 1,
+      "productId": 1,
+      "title": "項目名稱",
+      "price": "金額設定",
+      "contents": ["項目內容1", "項目內容2", "項目內容3"],
+      "image": "圖片"
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "title": "項目名稱2",
+      "price": "金額設定2",
+      "contents": ["項目內容3", "項目內容4", "項目內容5"],
+      "image": "圖片"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "orderFile": {
+        "Recipient": "收件人",
+        "phone": "電話",
+        "email": "信箱",
+        "address": "收件地址"
+      },
+      "orderStatus": "訂單狀態",
+      "paymentStatus": "付款狀態",
+      "shippingStatus": "出貨狀態",
+      "bonus": "額外加碼",
+      "totalPrice": "總價格(包含加碼)",
+      "payment": "付款方式",
+      "createdAt": "建立時間",
+      "paymentTime": "付款時間",
+      "canCancel": false,
+      "canRefund": false,
+      "canReturn": false,
+      "userId": 0,
+      "productId": 0
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 1
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "productId": 1
+    }
+  ]
 }
