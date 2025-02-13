@@ -12,63 +12,21 @@
         "bio": "自我介紹",
         "userImageUrl": "大頭貼"
       },
-      "hasStudio": false
+      "hasStudio": true
     },
     {
       "id": 2,
       "email": "test@gmail.com",
       "password": "15918984",
       "userProfile": {
-        "userName": "真實姓名2",
-        "nickName": "暱稱2",
-        "phone": "電話2",
-        "birthdate": "生日2",
-        "bio": "自我介紹2",
-        "userImageUrl": "大頭貼2"
+        "userName": "Ken",
+        "nickName": "Ken",
+        "phone": "0912345678",
+        "birthdate": "1990-01-01",
+        "bio": "自我介紹",
+        "userImageUrl": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       "hasStudio": false
-    },
-    {
-      "email": "test123@gmail.com",
-      "password": "$2a$10$U0SapFr5KOwoxxafzD/H.Oom0xtOPCoN2BR28cxuMEIMrjRJ9c.aS",
-      "userProfile": {
-        "userName": "test123",
-        "nickName": "暱稱2",
-        "phone": "電話2",
-        "birthdate": "生日2",
-        "bio": "自我介紹2",
-        "userImageUrl": "大頭貼2"
-      },
-      "hasStudio": false,
-      "id": 3
-    },
-    {
-      "email": "test12345@gmail.com",
-      "password": "$2a$10$xN5jQC2NgBphIp21SJiO2OvEYvWAJbbD2WcZHDsxzyDl7vWmTdGuS",
-      "userProfile": {
-        "userName": "真實姓名2",
-        "nickName": "暱稱2",
-        "phone": "電話2",
-        "birthdate": "生日2",
-        "bio": "自我介紹2",
-        "userImageUrl": "大頭貼2"
-      },
-      "hasStudio": false,
-      "id": 4
-    },
-    {
-      "email": "test456@gmail.com",
-      "password": "$2a$10$7340Ozx9S/LhOYrir/JpRue3BMZbd2CinzwxnMJe8rjpCGkFiORs.",
-      "userProfile": {
-        "userName": "真實姓名2",
-        "nickName": "暱稱2",
-        "phone": "電話2",
-        "birthdate": "生日2",
-        "bio": "自我介紹2",
-        "userImageUrl": "大頭貼2"
-      },
-      "hasStudio": false,
-      "id": 5
     }
   ],
   "studios": [
@@ -88,23 +46,6 @@
         "studioLine": "LINE",
         "studioImageUrl": "大頭貼"
       }
-    },
-    {
-      "id": 2,
-      "userId": 2,
-      "studioProfile": {
-        "groupName": "團隊名稱2",
-        "personResponsible": "負責人2",
-        "email": "電子信箱2",
-        "phone": "電話2",
-        "startTime": "服務時間(起)",
-        "endTime": "服務時間(迄)",
-        "teamIntro": "團隊簡介",
-        "studioFb": "FB",
-        "studioIg": "IG",
-        "studioLine": "LINE",
-        "studioImageUrl": "大頭貼"
-      }
     }
   ],
   "projects": [
@@ -112,95 +53,305 @@
       "id": 1,
       "userId": 1,
       "studioId": 1,
-      "projectTitle": "追風者",
+      "projectTitle": "外送人員不為人知的辛勞－紀錄片《追風者》募資計畫",
       "projectImage": "https://example.com/images/追風者.jpg",
       "otherImages": ["https://example.com/images/追風者2.jpg", "https://example.com/images/追風者3.jpg"],
-      "summary": "簡介",
-      "category": "類型",
-      "viewNum": "瀏覽次數",
-      "supportNum": "贊助人數",
-      "totalMoney": "目前金額",
-      "goalMoney": "目標金額",
-      "createdAt": "建立時間",
-      "content": "專案介紹"
+      "summary": "他們穿梭於霓虹之下，奔馳於風雨之中，道路上常見的外送員身影，他們背後的人生究竟為何？",
+      "category": "紀錄片",
+      "viewNum": "25649",
+      "supportNum": "100",
+      "totalMoney": 123456,
+      "goalMoney": 3000000,
+      "createdAt": "2024-08-01T17:30",
+      "content": "在這個現代都市，馬路早已不僅僅是交通的動脈，更是許多人的另一個家。對於食物外送員而言，這條看似無盡的道路，不僅是他們工作的場所，更是他們的飯桌、臥室，以及日夜勞動的舞台。對於即將踏入三十歲青春的這群年輕外送員來說，他們問自己：為了夢想與財富自由，究竟要用多少歲月與勞力交換而來？"
     },
     {
       "id": 2,
       "userId": 1,
       "studioId": 1,
-      "projectId": 1,
-      "projectTitle": "愛情片",
+      "projectTitle": "外送人員不為人知的辛勞－紀錄片《追風者》募資計畫",
       "projectImage": "https://example.com/images/追風者.jpg",
       "otherImages": ["https://example.com/images/追風者2.jpg", "https://example.com/images/追風者3.jpg"],
-      "summary": "愛情簡介",
-      "category": "愛情",
-      "viewNum": "瀏覽次數",
-      "supportNum": "贊助人數",
-      "totalMoney": "目前金額",
-      "goalMoney": "目標金額",
-      "createdAt": "建立時間",
-      "content": "愛情專案介紹"
+      "summary": "他們穿梭於霓虹之下，奔馳於風雨之中，道路上常見的外送員身影，他們背後的人生究竟為何？",
+      "category": "紀錄片",
+      "viewNum": "25649",
+      "supportNum": "100",
+      "totalMoney": 123456,
+      "goalMoney": 3000000,
+      "createdAt": "2024-08-01T17:30",
+      "content": "在這個現代都市，馬路早已不僅僅是交通的動脈，更是許多人的另一個家。對於食物外送員而言，這條看似無盡的道路，不僅是他們工作的場所，更是他們的飯桌、臥室，以及日夜勞動的舞台。對於即將踏入三十歲青春的這群年輕外送員來說，他們問自己：為了夢想與財富自由，究竟要用多少歲月與勞力交換而來？"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "studioId": 1,
+      "projectTitle": "外送人員不為人知的辛勞－紀錄片《追風者》募資計畫",
+      "projectImage": "https://example.com/images/追風者.jpg",
+      "otherImages": ["https://example.com/images/追風者2.jpg", "https://example.com/images/追風者3.jpg"],
+      "summary": "他們穿梭於霓虹之下，奔馳於風雨之中，道路上常見的外送員身影，他們背後的人生究竟為何？",
+      "category": "紀錄片",
+      "viewNum": "25649",
+      "supportNum": "100",
+      "totalMoney": 123456,
+      "goalMoney": 3000000,
+      "createdAt": "2024-08-01T17:30",
+      "content": "在這個現代都市，馬路早已不僅僅是交通的動脈，更是許多人的另一個家。對於食物外送員而言，這條看似無盡的道路，不僅是他們工作的場所，更是他們的飯桌、臥室，以及日夜勞動的舞台。對於即將踏入三十歲青春的這群年輕外送員來說，他們問自己：為了夢想與財富自由，究竟要用多少歲月與勞力交換而來？"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "studioId": 1,
+      "projectTitle": "外送人員不為人知的辛勞－紀錄片《追風者》募資計畫",
+      "projectImage": "https://example.com/images/追風者.jpg",
+      "otherImages": ["https://example.com/images/追風者2.jpg", "https://example.com/images/追風者3.jpg"],
+      "summary": "他們穿梭於霓虹之下，奔馳於風雨之中，道路上常見的外送員身影，他們背後的人生究竟為何？",
+      "category": "紀錄片",
+      "viewNum": "25649",
+      "supportNum": "100",
+      "totalMoney": 123456,
+      "goalMoney": 3000000,
+      "createdAt": "2024-08-01T17:30",
+      "content": "在這個現代都市，馬路早已不僅僅是交通的動脈，更是許多人的另一個家。對於食物外送員而言，這條看似無盡的道路，不僅是他們工作的場所，更是他們的飯桌、臥室，以及日夜勞動的舞台。對於即將踏入三十歲青春的這群年輕外送員來說，他們問自己：為了夢想與財富自由，究竟要用多少歲月與勞力交換而來？"
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "studioId": 1,
+      "projectTitle": "外送人員不為人知的辛勞－紀錄片《追風者》募資計畫",
+      "projectImage": "https://example.com/images/追風者.jpg",
+      "otherImages": ["https://example.com/images/追風者2.jpg", "https://example.com/images/追風者3.jpg"],
+      "summary": "他們穿梭於霓虹之下，奔馳於風雨之中，道路上常見的外送員身影，他們背後的人生究竟為何？",
+      "category": "紀錄片",
+      "viewNum": "25649",
+      "supportNum": "100",
+      "totalMoney": 123456,
+      "goalMoney": 3000000,
+      "createdAt": "2024-08-01T17:30",
+      "content": "在這個現代都市，馬路早已不僅僅是交通的動脈，更是許多人的另一個家。對於食物外送員而言，這條看似無盡的道路，不僅是他們工作的場所，更是他們的飯桌、臥室，以及日夜勞動的舞台。對於即將踏入三十歲青春的這群年輕外送員來說，他們問自己：為了夢想與財富自由，究竟要用多少歲月與勞力交換而來？"
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "studioId": 1,
+      "projectTitle": "外送人員不為人知的辛勞－紀錄片《追風者》募資計畫",
+      "projectImage": "https://example.com/images/追風者.jpg",
+      "otherImages": ["https://example.com/images/追風者2.jpg", "https://example.com/images/追風者3.jpg"],
+      "summary": "他們穿梭於霓虹之下，奔馳於風雨之中，道路上常見的外送員身影，他們背後的人生究竟為何？",
+      "category": "紀錄片",
+      "viewNum": "25649",
+      "supportNum": "100",
+      "totalMoney": 123456,
+      "goalMoney": 3000000,
+      "createdAt": "2024-08-01T17:30",
+      "content": "在這個現代都市，馬路早已不僅僅是交通的動脈，更是許多人的另一個家。對於食物外送員而言，這條看似無盡的道路，不僅是他們工作的場所，更是他們的飯桌、臥室，以及日夜勞動的舞台。對於即將踏入三十歲青春的這群年輕外送員來說，他們問自己：為了夢想與財富自由，究竟要用多少歲月與勞力交換而來？"
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "studioId": 1,
+      "projectTitle": "外送人員不為人知的辛勞－紀錄片《追風者》募資計畫",
+      "projectImage": "https://example.com/images/追風者.jpg",
+      "otherImages": ["https://example.com/images/追風者2.jpg", "https://example.com/images/追風者3.jpg"],
+      "summary": "他們穿梭於霓虹之下，奔馳於風雨之中，道路上常見的外送員身影，他們背後的人生究竟為何？",
+      "category": "紀錄片",
+      "viewNum": "25649",
+      "supportNum": "100",
+      "totalMoney": 123456,
+      "goalMoney": 3000000,
+      "createdAt": "2024-08-01T17:30",
+      "content": "在這個現代都市，馬路早已不僅僅是交通的動脈，更是許多人的另一個家。對於食物外送員而言，這條看似無盡的道路，不僅是他們工作的場所，更是他們的飯桌、臥室，以及日夜勞動的舞台。對於即將踏入三十歲青春的這群年輕外送員來說，他們問自己：為了夢想與財富自由，究竟要用多少歲月與勞力交換而來？"
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "studioId": 1,
+      "projectTitle": "外送人員不為人知的辛勞－紀錄片《追風者》募資計畫",
+      "projectImage": "https://example.com/images/追風者.jpg",
+      "otherImages": ["https://example.com/images/追風者2.jpg", "https://example.com/images/追風者3.jpg"],
+      "summary": "他們穿梭於霓虹之下，奔馳於風雨之中，道路上常見的外送員身影，他們背後的人生究竟為何？",
+      "category": "紀錄片",
+      "viewNum": "25649",
+      "supportNum": "100",
+      "totalMoney": 123456,
+      "goalMoney": 3000000,
+      "createdAt": "2024-08-01T17:30",
+      "content": "在這個現代都市，馬路早已不僅僅是交通的動脈，更是許多人的另一個家。對於食物外送員而言，這條看似無盡的道路，不僅是他們工作的場所，更是他們的飯桌、臥室，以及日夜勞動的舞台。對於即將踏入三十歲青春的這群年輕外送員來說，他們問自己：為了夢想與財富自由，究竟要用多少歲月與勞力交換而來？"
+    },
+    {
+      "id": 9,
+      "userId": 1,
+      "studioId": 1,
+      "projectTitle": "外送人員不為人知的辛勞－紀錄片《追風者》募資計畫",
+      "projectImage": "https://example.com/images/追風者.jpg",
+      "otherImages": ["https://example.com/images/追風者2.jpg", "https://example.com/images/追風者3.jpg"],
+      "summary": "他們穿梭於霓虹之下，奔馳於風雨之中，道路上常見的外送員身影，他們背後的人生究竟為何？",
+      "category": "紀錄片",
+      "viewNum": "25649",
+      "supportNum": "100",
+      "totalMoney": 123456,
+      "goalMoney": 3000000,
+      "createdAt": "2024-08-01T17:30",
+      "content": "在這個現代都市，馬路早已不僅僅是交通的動脈，更是許多人的另一個家。對於食物外送員而言，這條看似無盡的道路，不僅是他們工作的場所，更是他們的飯桌、臥室，以及日夜勞動的舞台。對於即將踏入三十歲青春的這群年輕外送員來說，他們問自己：為了夢想與財富自由，究竟要用多少歲月與勞力交換而來？"
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "studioId": 1,
+      "projectTitle": "外送人員不為人知的辛勞－紀錄片《追風者》募資計畫",
+      "projectImage": "https://example.com/images/追風者.jpg",
+      "otherImages": ["https://example.com/images/追風者2.jpg", "https://example.com/images/追風者3.jpg"],
+      "summary": "他們穿梭於霓虹之下，奔馳於風雨之中，道路上常見的外送員身影，他們背後的人生究竟為何？",
+      "category": "紀錄片",
+      "viewNum": "25649",
+      "supportNum": "100",
+      "totalMoney": 123456,
+      "goalMoney": 3000000,
+      "createdAt": "2024-08-01T17:30",
+      "content": "在這個現代都市，馬路早已不僅僅是交通的動脈，更是許多人的另一個家。對於食物外送員而言，這條看似無盡的道路，不僅是他們工作的場所，更是他們的飯桌、臥室，以及日夜勞動的舞台。對於即將踏入三十歲青春的這群年輕外送員來說，他們問自己：為了夢想與財富自由，究竟要用多少歲月與勞力交換而來？"
     }
   ],
   "posts": [
     {
       "id": 1,
       "projectId": 1,
-      "title": "456",
-      "content": "content",
-      "date": "date"
+      "title": "籌備狀態",
+      "content": "拍攝階段進展：我們的紀錄片《追風者》目前進入了深入採訪和拍攝階段。團隊已經與多位外送員進行了初步訪談，並實地記錄了他們在都市中奔波的生活。從清晨的街道到深夜的巷弄，我們捕捉了他們工作的日常，也開始深入了解他們面臨的困境與心聲。後製進度：部分拍攝素材已完成初步整理，現正進行剪輯和故事線的架構設計。我們的後期製作團隊正全力投入，確保這部影片能夠真實呈現出外送員們在追夢與現實中所經歷的點滴。我們計劃在完成一部分的後期製作後，釋出一小段預告片給支持者。募資目標進展：截至目前，我們已成功達到初期募資目標的90%，距離完成所有後期製作的資金需求還有一小段距離。您的每一份支持都將幫助我們在後期製作、聲音設計及原創配樂方面提供更優質的成果。",
+      "date": "2024-09-15T20:00"
+    },
+    {
+      "id": 2,
+      "projectId": 1,
+      "title": "首映會狀況更新：追風者首映會準備中！",
+      "content": "親愛的支持者們，我們很高興通知您，《追風者》的首映會現已進入籌備的最後階段！目前，我們已經確認了場地，並計劃在台北舉行盛大的首映禮。活動當天，除了電影放映之外，還會安排導演與主創團隊的座談會，與大家分享拍攝背後的故事和創作歷程。我們非常期待與每位支持者一同見證《追風者》的首映盛況，您的參與讓這部紀錄片得以誕生。後續將會提供更多首映會的詳細資訊，包括時間、地點及票務安排，敬請期待！",
+      "date": "2024-09-23T20:00"
+    },
+    {
+      "id": 3,
+      "projectId": 1,
+      "title": "上映期間公告:2024/10/6 ~ 2024/11/31 《追風者》全台上映！",
+      "content": "感謝各位支持者的耐心等待，我們很高興宣布，《追風者》將於2024 年 10 月 6 日至 11 月 31日期間全台上映！本次上映將涵蓋多家影城，讓更多人有機會進入電影院，親眼見證外送員們的奮鬥故事。我們會持續更新更多具體的影城與場次安排，讓大家能夠方便選擇適合的時間與地點。請密切關注我們的消息更新，準備好迎接這段感動人心的故事！",
+      "date": "2024-09-29T20:00"
     }
   ],
   "faqs": [
     {
       "id": 1,
       "projectId": 1,
-      "title": "title",
-      "content": "content",
-      "date": "date"
+      "title": "本次計畫的發起團隊為何？",
+      "content": "本次募款計劃由「春日影像製作 Spring Film」這是一個專注於社會議題、真實故事的影像創作團隊。我們致力於通過紀錄片與影片，探索被忽視的社會群體，講述那些值得被聽見的故事。此次的《追風者》便是我們希望藉由影像帶出外送員群體真實生活的其中一部作品。",
+      "date": "2024-08-01T18:30"
     },
     {
       "id": 2,
-      "projectId": 2,
-      "title": "title",
-      "content": "content",
-      "date": "date"
+      "projectId": 1,
+      "title": "首映會何時舉行？",
+      "content": "首映會將於10 月 6 日舉行，具體地點和時間將會提前通知所有支持者，並公布在專案的最新消息區塊。",
+      "date": "2024-08-01T18:30"
+    },
+    {
+      "id": 3,
+      "projectId": 1,
+      "title": "我該如何參加電影首映會？",
+      "content": "只要支持了包含首映會門票的方案，您將會在首映會前收到邀請函和詳細的活動資訊。",
+      "date": "2024-08-01T18:30"
+    },
+    {
+      "id": 4,
+      "projectId": 1,
+      "title": "如何領取我支持的回饋品？",
+      "content": "在專案成功募資結束後，我們會聯繫所有支持者，確認您的聯繫資訊並安排回饋品的發送。具體寄送時間會視生產進度與地區而定。",
+      "date": "2024-08-01T18:30"
+    },
+    {
+      "id": 5,
+      "projectId": 1,
+      "title": "如果我無法參加首映會，還能獲得回饋品嗎？",
+      "content": "當然可以！即使無法參加首映會，您仍然會收到您支持的所有回饋品，我們會按照您的收件資訊寄送給您。",
+      "date": "2024-08-01T18:30"
+    },
+    {
+      "id": 6,
+      "projectId": 1,
+      "title": "這部影片有在其他平台或國際市場上映的計畫嗎？",
+      "content": "目前我們專注於本地市場上映，但正在規劃透過線上平台進行後續發行。若有國際市場上映的消息，我們將會在專案頁面更新。",
+      "date": "2024-08-01T18:30"
+    },
+    {
+      "id": 7,
+      "projectId": 1,
+      "title": "捐款後能否修改支持方案或金額？",
+      "content": "是的，在專案募資結束前，您可以修改您的支持方案或金額。募資結束後則無法更改。",
+      "date": "2024-08-01T18:30"
+    },
+    {
+      "id": 8,
+      "projectId": 1,
+      "title": "片長大約多久？",
+      "content": "紀錄片《追風者》全長約90分鐘，包含精選訪談、真實故事片段以及導演的獨家敘述。",
+      "date": "2024-08-01T18:30"
+    },
+    {
+      "id": 9,
+      "projectId": 1,
+      "title": "如何確認我的支持已成功？",
+      "content": "支持後，您會收到一封確認電子郵件，並可隨時在募資平台上的帳號中查看您的支持狀態。",
+      "date": "2024-08-01T18:30"
+    },
+    {
+      "id": 10,
+      "projectId": 1,
+      "title": "若募資目標未達成，資金會如何處理？",
+      "content": "若募資未能成功，所有支持者將會全額退款，您不會損失任何資金。",
+      "date": "2024-08-01T18:30"
     }
   ],
   "comments": [
     {
       "id": 1,
       "projectId": 1,
-      "userId": 1,
-      "title": "title",
-      "content": "content",
-      "date": "date"
+      "userId": 2,
+      "content": "很喜歡這樣紀錄片的風格，期待創作者能做出更多的作品",
+      "date": "2024-08-04T17:30"
     },
     {
       "id": 2,
-      "projectId": 2,
-      "userId": 1,
-      "title": "title",
-      "content": "content",
-      "date": "date"
+      "projectId": 1,
+      "userId": 2,
+      "content": "很喜歡這樣紀錄片的風格，期待創作者能做出更多的作品",
+      "date": "2024-08-04T18:30"
+    },
+    {
+      "id": 3,
+      "projectId": 1,
+      "userId": 2,
+      "content": "很喜歡這樣紀錄片的風格，期待創作者能做出更多的作品",
+      "date": "2024-08-04T19:30"
     }
   ],
   "products": [
     {
       "id": 1,
       "projectId": 1,
-      "title": "項目名稱",
-      "price": "金額設定",
-      "contents": ["項目內容1", "項目內容2", "項目內容3"],
-      "image": "圖片"
+      "title": "電影海報組",
+      "price": 500,
+      "contents": ["獨家簽名海報乙張", "獨家酷卡乙組", "首輪交換券乙張", "片尾感謝名單", "Vber Eat 100元折價券"],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image59.png?raw=true"
     },
     {
       "id": 2,
-      "projectId": 2,
-      "title": "項目名稱2",
-      "price": "金額設定2",
-      "contents": ["項目內容3", "項目內容4", "項目內容5"],
-      "image": "圖片"
+      "projectId": 1,
+      "title": "劇照訪談組",
+      "price": 800,
+      "contents": ["獨家簽名劇照訪談集乙本", "獨家酷卡乙組", "首輪交換券乙張", "片尾感謝名單", "Vber Eat 100元折價券"],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image61.png?raw=true"
+    },
+    {
+      "id": 3,
+      "projectId": 1,
+      "title": "手機支架組",
+      "price": 1200,
+      "contents": ["特色手機支架乙支", "獨家酷卡乙組", "首輪交換券乙張", "片尾感謝名單", "Vber Eat 100元折價券"],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image60.png?raw=true"
     }
   ],
   "orders": [
