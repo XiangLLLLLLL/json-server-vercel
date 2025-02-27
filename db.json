@@ -2,20 +2,34 @@
   "users": [
     {
       "id": 1,
-      "email": "電子信箱",
-      "password": "密碼",
+      "email": "example@gmail.com",
+      "password": "$2a$10$bC9lqLeWjUcNUBk0WXsnPuD0DLQ9KEoRtyaMTaixpZhWgR.9SDFWK",
       "userProfile": {
-        "userName": "真實姓名",
-        "nickName": "暱稱",
-        "phone": "電話",
-        "birthdate": "生日",
-        "bio": "自我介紹",
-        "userImageUrl": "大頭貼"
+        "userName": "周禹丞",
+        "nickName": "周禹丞",
+        "phone": "01-23456789",
+        "birthdate": "1990-01-01",
+        "bio": "畢業於世新大學廣播電視電影學系電影組,現就讀國立臺北藝術大學電影創作學系研究所導演組。善於觀察溫柔情感和人際關係的鏡頭捕捉,近年來從紀錄片創作中找到極大樂趣。希望能藉由更多的影像創作中找到真實且精彩的人生。攝影作品數部橫跨MV、廣告、形象、紀錄/劇情短片各類商業及藝術領域。最新創作紀錄短片《遠端對話》(2022)在三級警戒疫情下的臺北,一位香港職業演員被困在永和的隔離生活,紀錄了三個月中他與唯一在遠方的親人,靠著視訊互相依偎的溫馨感人故事。此片榮獲2022年南方影展「疫情一天單元」首獎、中華電信MOD金片子競賽——蹲點台灣紀錄片佳作、第四屆福爾摩沙國際電影節榮獲「最佳療癒疫情短片」以及韓國阿波里亞國際電影節紀錄短片類入圍。過去劇情片導演作品《晃遊》(2020)也曾入圍新北市學生影像新星獎、洛杉磯Ourfest酷兒影展、韓國、香港多國同志電影節。",
+        "userImageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E5%B0%8E%E6%BC%94%E7%85%A71-8c6fe51b.jpg"
       },
       "hasStudio": true
     },
     {
       "id": 2,
+      "email": "example2@gmail.com",
+      "password": "$2a$10$bC9lqLeWjUcNUBk0WXsnPuD0DLQ9KEoRtyaMTaixpZhWgR.9SDFWK",
+      "userProfile": {
+        "userName": "Bryan Ko",
+        "nickName": "Bryan Ko",
+        "phone": "01-23456789",
+        "birthdate": "1990-01-01",
+        "bio": "居住於台北和洛杉磯，並在18歲時就進入了電影世界。興趣涵蓋武術、街舞、鋼琴、音樂創作、文學和表演。電影製作之旅始於電影學校。",
+        "userImageUrl": "https://static.wixstatic.com/media/e46cde_0eeae574b0b94ead9590a63912304500~mv2.jpg/v1/crop/x_415,y_202,w_518,h_781/fill/w_375,h_566,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Bryan%20Ko_Name.jpg"
+      },
+      "hasStudio": true
+    },
+    {
+      "id": 3,
       "email": "test@gmail.com",
       "password": "$2a$10$bC9lqLeWjUcNUBk0WXsnPuD0DLQ9KEoRtyaMTaixpZhWgR.9SDFWK",
       "userProfile": {
@@ -45,6 +59,23 @@
         "studioIg": "https://www.instagram.com/?hl=zh-tw",
         "studioLine": "https://www.line.me/tw/",
         "studioImageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E5%B0%8E%E6%BC%94%E7%85%A71-8c6fe51b.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "studioProfile": {
+        "groupName": "漂流木制作影視",
+        "personResponsible": "Bryan Ko",
+        "email": "example2@gmail.com",
+        "phone": "01-23456789",
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "teamIntro": "居住於台北和洛杉磯，並在18歲時就進入了電影世界。興趣涵蓋武術、街舞、鋼琴、音樂創作、文學和表演。電影製作之旅始於電影學校。",
+        "studioFb": "https://www.facebook.com/",
+        "studioIg": "https://www.instagram.com/?hl=zh-tw",
+        "studioLine": "https://www.line.me/tw/",
+        "studioImageUrl": "https://static.wixstatic.com/media/e46cde_0eeae574b0b94ead9590a63912304500~mv2.jpg/v1/crop/x_415,y_202,w_518,h_781/fill/w_375,h_566,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Bryan%20Ko_Name.jpg"
       }
     }
   ],
@@ -78,10 +109,14 @@
       "id": 2,
       "userId": 1,
       "studioId": 1,
-      "projectTitle": "外送人員不為人知的辛勞－紀錄片《追風者》募資計畫09-01",
-      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%855-221c7ac5.png",
-      "otherImages": [{ "id": "1739949766485", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%852-06018df4.png" }],
-      "summary": "他們穿梭於霓虹之下，奔馳於風雨之中，道路上常見的外送員身影，他們背後的人生究竟為何？",
+      "projectTitle": "金穗獎作品長片《孤獨時光》募資計畫",
+      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/%E9%A6%96%E9%A0%81_%E8%BC%AA%E6%92%AD_02-d6dfed54.jpg",
+      "otherImages": [
+        { "id": "1979949766485", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%852-06018df4.png" },
+        { "id": "1749949528982", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%857-ffb3129e.png" },
+        { "id": "1759949577856", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%851-7dadc82e.png" }
+      ],
+      "summary": "一張不翼而飛的遊戲光碟，引發對好友的猜疑，年幼的初中少年，要如何面對艱難而常見的成長課題？",
       "category": "紀錄片",
       "viewNum": "25649",
       "supportNum": "100",
@@ -89,16 +124,20 @@
       "goalMoney": 3000000,
       "createdAt": "2024-09-01T17:30",
       "endAt": "2025-04-30T24:00",
-      "content": "在這個現代都市，馬路早已不僅僅是交通的動脈，更是許多人的另一個家。對於食物外送員而言，這條看似無盡的道路，不僅是他們工作的場所，更是他們的飯桌、臥室，以及日夜勞動的舞台。對於即將踏入三十歲青春的這群年輕外送員來說，他們問自己：為了夢想與財富自由，究竟要用多少歲月與勞力交換而來？"
+      "content": "一張不翼而飛的遊戲光碟，引發對好友的猜疑，年幼的初中少年，要如何面對艱難而常見的成長課題？"
     },
     {
       "id": 3,
       "userId": 1,
       "studioId": 1,
-      "projectTitle": "外送人員不為人知的辛勞－紀錄片《追風者》募資計畫10-01",
-      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%855-221c7ac5.png",
-      "otherImages": [{ "id": "1739949775839", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%852-06018df4.png" }],
-      "summary": "他們穿梭於霓虹之下，奔馳於風雨之中，道路上常見的外送員身影，他們背後的人生究竟為何？",
+      "projectTitle": "遠端對話",
+      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/%E9%A6%96%E9%A0%81_%E8%BC%AA%E6%92%AD_03-64e43ee6.jpg",
+      "otherImages": [
+        { "id": "1969949775839", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%852-06018df4.png" },
+        { "id": "1769949528982", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%857-ffb3129e.png" },
+        { "id": "1779949577856", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%851-7dadc82e.png" }
+      ],
+      "summary": "疫情之下的台北，異鄉人對家人的思念",
       "category": "紀錄片",
       "viewNum": "25649",
       "supportNum": "100",
@@ -106,50 +145,62 @@
       "goalMoney": 3000000,
       "createdAt": "2024-10-01T17:30",
       "endAt": "2025-04-30T24:00",
-      "content": "在這個現代都市，馬路早已不僅僅是交通的動脈，更是許多人的另一個家。對於食物外送員而言，這條看似無盡的道路，不僅是他們工作的場所，更是他們的飯桌、臥室，以及日夜勞動的舞台。對於即將踏入三十歲青春的這群年輕外送員來說，他們問自己：為了夢想與財富自由，究竟要用多少歲月與勞力交換而來？"
+      "content": "疫情之下的台北，異鄉人對家人的思念"
     },
     {
       "id": 4,
       "userId": 1,
       "studioId": 1,
-      "projectTitle": "外送人員不為人知的辛勞－紀錄片《追風者》募資計畫11-01",
-      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%855-221c7ac5.png",
-      "otherImages": [{ "id": "1739949786172", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%852-06018df4.png" }],
-      "summary": "他們穿梭於霓虹之下，奔馳於風雨之中，道路上常見的外送員身影，他們背後的人生究竟為何？",
-      "category": "紀錄片",
+      "projectTitle": "CLAW MACHINE",
+      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/%E9%A6%96%E9%A0%81_%E8%BC%AA%E6%92%AD_04-4f9f70a7.jpg",
+      "otherImages": [
+        { "id": "1959949786172", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%852-06018df4.png" },
+        { "id": "1789949528982", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%857-ffb3129e.png" },
+        { "id": "1799949577856", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%851-7dadc82e.png" }
+      ],
+      "summary": "度過悲慘一天的女子，將希望寄託給一間散發異色光輝的夾娃娃機店",
+      "category": "愛情",
       "viewNum": "25649",
       "supportNum": "100",
       "totalMoney": 123456,
       "goalMoney": 3000000,
       "createdAt": "2024-11-01T17:30",
       "endAt": "2025-04-30T24:00",
-      "content": "在這個現代都市，馬路早已不僅僅是交通的動脈，更是許多人的另一個家。對於食物外送員而言，這條看似無盡的道路，不僅是他們工作的場所，更是他們的飯桌、臥室，以及日夜勞動的舞台。對於即將踏入三十歲青春的這群年輕外送員來說，他們問自己：為了夢想與財富自由，究竟要用多少歲月與勞力交換而來？"
+      "content": "度過悲慘一天的女子，將希望寄託給一間散發異色光輝的夾娃娃機店"
     },
     {
       "id": 5,
-      "userId": 1,
-      "studioId": 1,
-      "projectTitle": "外送人員不為人知的辛勞－紀錄片《追風者》募資計畫12-01",
-      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%855-221c7ac5.png",
-      "otherImages": [{ "id": "1739949801459", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%852-06018df4.png" }],
-      "summary": "他們穿梭於霓虹之下，奔馳於風雨之中，道路上常見的外送員身影，他們背後的人生究竟為何？",
-      "category": "紀錄片",
+      "userId": 2,
+      "studioId": 2,
+      "projectTitle": "黑色照片",
+      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/%E9%A6%96%E9%A0%81_%E8%BC%AA%E6%92%AD_05-6564917b.jpg",
+      "otherImages": [
+        { "id": "1949949801459", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%852-06018df4.png" },
+        { "id": "1809949528982", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%857-ffb3129e.png" },
+        { "id": "1819949577856", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%851-7dadc82e.png" }
+      ],
+      "summary": "消逝的愛情，遺留著執念，如同往夜色拍去的黑色照片",
+      "category": "愛情",
       "viewNum": "25649",
       "supportNum": "100",
       "totalMoney": 123456,
       "goalMoney": 3000000,
       "createdAt": "2024-12-01T17:30",
       "endAt": "2025-04-30T24:00",
-      "content": "在這個現代都市，馬路早已不僅僅是交通的動脈，更是許多人的另一個家。對於食物外送員而言，這條看似無盡的道路，不僅是他們工作的場所，更是他們的飯桌、臥室，以及日夜勞動的舞台。對於即將踏入三十歲青春的這群年輕外送員來說，他們問自己：為了夢想與財富自由，究竟要用多少歲月與勞力交換而來？"
+      "content": "消逝的愛情，遺留著執念，如同往夜色拍去的黑色照片"
     },
     {
       "id": 6,
-      "userId": 1,
-      "studioId": 1,
-      "projectTitle": "外送人員不為人知的辛勞－紀錄片《追風者》募資計畫08-30",
-      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%855-221c7ac5.png",
-      "otherImages": [{ "id": "1739949810712", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%852-06018df4.png" }],
-      "summary": "他們穿梭於霓虹之下，奔馳於風雨之中，道路上常見的外送員身影，他們背後的人生究竟為何？",
+      "userId": 2,
+      "studioId": 2,
+      "projectTitle": "畢業製作《魔羯男孩》募資計畫-談青春成長的自我受限",
+      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/image26-9ae63d8f.png",
+      "otherImages": [
+        { "id": "1939949810712", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%852-06018df4.png" },
+        { "id": "1829949528982", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%857-ffb3129e.png" },
+        { "id": "1839949577856", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%851-7dadc82e.png" }
+      ],
+      "summary": "一名少年在成長過程中經歷友情、愛情與挫折，最終找到自我，迎向嶄新人生。",
       "category": "紀錄片",
       "viewNum": "25649",
       "supportNum": "100",
@@ -157,75 +208,70 @@
       "goalMoney": 3000000,
       "createdAt": "2024-08-30T17:30",
       "endAt": "2025-04-30T24:00",
-      "content": "在這個現代都市，馬路早已不僅僅是交通的動脈，更是許多人的另一個家。對於食物外送員而言，這條看似無盡的道路，不僅是他們工作的場所，更是他們的飯桌、臥室，以及日夜勞動的舞台。對於即將踏入三十歲青春的這群年輕外送員來說，他們問自己：為了夢想與財富自由，究竟要用多少歲月與勞力交換而來？"
+      "content": "一名少年在成長過程中經歷友情、愛情與挫折，最終找到自我，迎向嶄新人生。"
     },
     {
       "id": 7,
-      "userId": 1,
-      "studioId": 1,
-      "projectTitle": "外送人員不為人知的辛勞－紀錄片《追風者》募資計畫08-31",
-      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%855-221c7ac5.png",
-      "otherImages": [{ "id": "1739949820527", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%852-06018df4.png" }],
-      "summary": "他們穿梭於霓虹之下，奔馳於風雨之中，道路上常見的外送員身影，他們背後的人生究竟為何？",
-      "category": "紀錄片",
+      "userId": 2,
+      "studioId": 2,
+      "projectTitle": "金狗獎最佳短片《末日遠行》長片募資計畫",
+      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/image33-41a0232e.png",
+      "otherImages": [
+        { "id": "1929949820527", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%852-06018df4.png" },
+        { "id": "1849949528982", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%857-ffb3129e.png" },
+        { "id": "1859949577856", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%851-7dadc82e.png" }
+      ],
+      "summary": "在世界崩壞後，倖存者踏上危險旅程，尋找希望與新家園，途中面對絕望與人性考驗。",
+      "category": "懸疑",
       "viewNum": "25649",
       "supportNum": "100",
       "totalMoney": 123456,
       "goalMoney": 3000000,
       "createdAt": "2024-08-31T17:30",
       "endAt": "2025-04-30T24:00",
-      "content": "在這個現代都市，馬路早已不僅僅是交通的動脈，更是許多人的另一個家。對於食物外送員而言，這條看似無盡的道路，不僅是他們工作的場所，更是他們的飯桌、臥室，以及日夜勞動的舞台。對於即將踏入三十歲青春的這群年輕外送員來說，他們問自己：為了夢想與財富自由，究竟要用多少歲月與勞力交換而來？"
+      "content": "在世界崩壞後，倖存者踏上危險旅程，尋找希望與新家園，途中面對絕望與人性考驗。"
     },
     {
       "id": 8,
-      "userId": 1,
-      "studioId": 1,
-      "projectTitle": "外送人員不為人知的辛勞－紀錄片《追風者》募資計畫09-30",
-      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%855-221c7ac5.png",
-      "otherImages": [{ "id": "1739949829527", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%852-06018df4.png" }],
-      "summary": "他們穿梭於霓虹之下，奔馳於風雨之中，道路上常見的外送員身影，他們背後的人生究竟為何？",
-      "category": "紀錄片",
+      "userId": 2,
+      "studioId": 2,
+      "projectTitle": "《IQBA》：春上村樹授權改編募資計畫",
+      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/image28-e753d2df.png",
+      "otherImages": [
+        { "id": "1919949829527", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%852-06018df4.png" },
+        { "id": "1869949528982", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%857-ffb3129e.png" },
+        { "id": "1879949577856", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%851-7dadc82e.png" }
+      ],
+      "summary": "一名青年在現實與幻想交錯的世界中探索自我，逐步揭開隱藏於內心的真相。",
+      "category": "動畫",
       "viewNum": "25649",
       "supportNum": "100",
       "totalMoney": 123456,
       "goalMoney": 3000000,
       "createdAt": "2024-09-30T17:30",
       "endAt": "2025-04-30T24:00",
-      "content": "在這個現代都市，馬路早已不僅僅是交通的動脈，更是許多人的另一個家。對於食物外送員而言，這條看似無盡的道路，不僅是他們工作的場所，更是他們的飯桌、臥室，以及日夜勞動的舞台。對於即將踏入三十歲青春的這群年輕外送員來說，他們問自己：為了夢想與財富自由，究竟要用多少歲月與勞力交換而來？"
+      "content": "一名青年在現實與幻想交錯的世界中探索自我，逐步揭開隱藏於內心的真相。"
     },
     {
       "id": 9,
-      "userId": 1,
-      "studioId": 1,
-      "projectTitle": "外送人員不為人知的辛勞－紀錄片《追風者》募資計畫10-31",
-      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%855-221c7ac5.png",
-      "otherImages": [{ "id": "1739949837116", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%852-06018df4.png" }],
-      "summary": "他們穿梭於霓虹之下，奔馳於風雨之中，道路上常見的外送員身影，他們背後的人生究竟為何？",
-      "category": "紀錄片",
+      "userId": 2,
+      "studioId": 2,
+      "projectTitle": "學生動作片《迫影》｜募資計畫",
+      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/image36-575b2b23.png",
+      "otherImages": [
+        { "id": "1909949837116", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%852-06018df4.png" },
+        { "id": "1889949528982", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%857-ffb3129e.png" },
+        { "id": "1899949577856", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%851-7dadc82e.png" }
+      ],
+      "summary": "一名特工在追查黑暗組織時陷入致命陰謀，必須極限搏殺才能揭露真相並生存。",
+      "category": "實驗電影",
       "viewNum": "25649",
       "supportNum": "100",
       "totalMoney": 123456,
       "goalMoney": 3000000,
       "createdAt": "2024-10-31T17:30",
       "endAt": "2025-04-30T24:00",
-      "content": "在這個現代都市，馬路早已不僅僅是交通的動脈，更是許多人的另一個家。對於食物外送員而言，這條看似無盡的道路，不僅是他們工作的場所，更是他們的飯桌、臥室，以及日夜勞動的舞台。對於即將踏入三十歲青春的這群年輕外送員來說，他們問自己：為了夢想與財富自由，究竟要用多少歲月與勞力交換而來？"
-    },
-    {
-      "id": 10,
-      "userId": 1,
-      "studioId": 1,
-      "projectTitle": "外送人員不為人知的辛勞－紀錄片《追風者》募資計畫11-30",
-      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%855-221c7ac5.png",
-      "otherImages": [{ "id": "1739949845171", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%852-06018df4.png" }],
-      "summary": "他們穿梭於霓虹之下，奔馳於風雨之中，道路上常見的外送員身影，他們背後的人生究竟為何？",
-      "category": "紀錄片",
-      "viewNum": "25649",
-      "supportNum": "100",
-      "totalMoney": 123456,
-      "goalMoney": 3000000,
-      "createdAt": "2024-11-30T17:30",
-      "endAt": "2025-04-30T24:00",
-      "content": "在這個現代都市，馬路早已不僅僅是交通的動脈，更是許多人的另一個家。對於食物外送員而言，這條看似無盡的道路，不僅是他們工作的場所，更是他們的飯桌、臥室，以及日夜勞動的舞台。對於即將踏入三十歲青春的這群年輕外送員來說，他們問自己：為了夢想與財富自由，究竟要用多少歲月與勞力交換而來？"
+      "content": "一名特工在追查黑暗組織時陷入致命陰謀，必須極限搏殺才能揭露真相並生存。"
     }
   ],
   "posts": [
@@ -249,6 +295,62 @@
       "title": "上映期間公告:2024/10/6 ~ 2024/11/31 《追風者》全台上映！",
       "content": "感謝各位支持者的耐心等待，我們很高興宣布，《追風者》將於2024 年 10 月 6 日至 11 月 31日期間全台上映！本次上映將涵蓋多家影城，讓更多人有機會進入電影院，親眼見證外送員們的奮鬥故事。我們會持續更新更多具體的影城與場次安排，讓大家能夠方便選擇適合的時間與地點。請密切關注我們的消息更新，準備好迎接這段感動人心的故事！",
       "date": "2024-09-29T20:00"
+    },
+    {
+      "id": 4,
+      "projectId": 2,
+      "title": "籌備狀態",
+      "content": "拍攝階段進展：我們的紀錄片《孤獨時光》目前進入了深入採訪和拍攝階段。",
+      "date": "2024-09-15T20:00"
+    },
+    {
+      "id": 5,
+      "projectId": 3,
+      "title": "籌備狀態",
+      "content": "拍攝階段進展：我們的紀錄片《遠端對話》目前進入了深入採訪和拍攝階段。",
+      "date": "2024-10-15T17:30"
+    },
+    {
+      "id": 6,
+      "projectId": 4,
+      "title": "籌備狀態",
+      "content": "拍攝階段進展：我們的紀錄片《CLAW MACHINE》目前進入了深入採訪和拍攝階段。",
+      "date": "2024-11-15T20:30"
+    },
+    {
+      "id": 7,
+      "projectId": 5,
+      "title": "籌備狀態",
+      "content": "拍攝階段進展：我們的紀錄片《黑色照片》目前進入了深入採訪和拍攝階段。",
+      "date": "2024-12-15T20:00"
+    },
+    {
+      "id": 8,
+      "projectId": 6,
+      "title": "籌備狀態",
+      "content": "拍攝階段進展：我們的紀錄片《魔羯男孩》目前進入了深入採訪和拍攝階段。",
+      "date": "2024-09-15T20:00"
+    },
+    {
+      "id": 9,
+      "projectId": 7,
+      "title": "籌備狀態",
+      "content": "拍攝階段進展：我們的紀錄片《末日遠行》目前進入了深入採訪和拍攝階段。",
+      "date": "2024-09-15T20:00"
+    },
+    {
+      "id": 10,
+      "projectId": 8,
+      "title": "籌備狀態",
+      "content": "拍攝階段進展：我們的紀錄片《IQBA》目前進入了深入採訪和拍攝階段。",
+      "date": "2024-09-15T20:00"
+    },
+    {
+      "id": 11,
+      "projectId": 9,
+      "title": "籌備狀態",
+      "content": "拍攝階段進展：我們的紀錄片《迫影》目前進入了深入採訪和拍攝階段。",
+      "date": "2024-09-15T20:00"
     }
   ],
   "faqs": [
@@ -321,27 +423,83 @@
       "title": "若募資目標未達成，資金會如何處理？",
       "content": "若募資未能成功，所有支持者將會全額退款，您不會損失任何資金。",
       "date": "2024-08-01T18:30"
+    },
+    {
+      "id": 11,
+      "projectId": 2,
+      "title": "若募資目標未達成，資金會如何處理？",
+      "content": "若募資未能成功，所有支持者將會全額退款，您不會損失任何資金。",
+      "date": "2024-08-01T18:30"
+    },
+    {
+      "id": 12,
+      "projectId": 3,
+      "title": "若募資目標未達成，資金會如何處理？",
+      "content": "若募資未能成功，所有支持者將會全額退款，您不會損失任何資金。",
+      "date": "2024-08-01T18:30"
+    },
+    {
+      "id": 13,
+      "projectId": 4,
+      "title": "若募資目標未達成，資金會如何處理？",
+      "content": "若募資未能成功，所有支持者將會全額退款，您不會損失任何資金。",
+      "date": "2024-08-01T18:30"
+    },
+    {
+      "id": 14,
+      "projectId": 5,
+      "title": "若募資目標未達成，資金會如何處理？",
+      "content": "若募資未能成功，所有支持者將會全額退款，您不會損失任何資金。",
+      "date": "2024-08-01T18:30"
+    },
+    {
+      "id": 15,
+      "projectId": 6,
+      "title": "若募資目標未達成，資金會如何處理？",
+      "content": "若募資未能成功，所有支持者將會全額退款，您不會損失任何資金。",
+      "date": "2024-08-01T18:30"
+    },
+    {
+      "id": 16,
+      "projectId": 7,
+      "title": "若募資目標未達成，資金會如何處理？",
+      "content": "若募資未能成功，所有支持者將會全額退款，您不會損失任何資金。",
+      "date": "2024-08-01T18:30"
+    },
+    {
+      "id": 17,
+      "projectId": 8,
+      "title": "若募資目標未達成，資金會如何處理？",
+      "content": "若募資未能成功，所有支持者將會全額退款，您不會損失任何資金。",
+      "date": "2024-08-01T18:30"
+    },
+    {
+      "id": 18,
+      "projectId": 9,
+      "title": "若募資目標未達成，資金會如何處理？",
+      "content": "若募資未能成功，所有支持者將會全額退款，您不會損失任何資金。",
+      "date": "2024-08-01T18:30"
     }
   ],
   "comments": [
     {
       "id": 1,
       "projectId": 1,
-      "userId": 2,
+      "userId": 3,
       "content": "很喜歡這樣紀錄片的風格，期待創作者能做出更多的作品",
       "date": "2024-08-04T17:30"
     },
     {
       "id": 2,
       "projectId": 1,
-      "userId": 2,
+      "userId": 3,
       "content": "很喜歡這樣紀錄片的風格，期待創作者能做出更多的作品",
       "date": "2024-08-04T18:30"
     },
     {
       "id": 3,
       "projectId": 1,
-      "userId": 2,
+      "userId": 3,
       "content": "很喜歡這樣紀錄片的風格，期待創作者能做出更多的作品",
       "date": "2024-08-04T19:30"
     }
@@ -368,6 +526,198 @@
       "projectId": 1,
       "title": "手機支架組",
       "price": 1200,
+      "contents": [{ "item": "特色手機支架乙支" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image60.png?raw=true"
+    },
+    {
+      "id": 4,
+      "projectId": 2,
+      "title": "孤獨時光電影海報組",
+      "price": 500,
+      "contents": [{ "item": "獨家簽名海報乙張" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image59.png?raw=true"
+    },
+    {
+      "id": 5,
+      "projectId": 2,
+      "title": "孤獨時光劇照訪談組",
+      "price": 1000,
+      "contents": [{ "item": "獨家簽名劇照訪談集乙本" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image61.png?raw=true"
+    },
+    {
+      "id": 6,
+      "projectId": 2,
+      "title": "孤獨時光手機支架組",
+      "price": 1500,
+      "contents": [{ "item": "特色手機支架乙支" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image60.png?raw=true"
+    },
+    {
+      "id": 7,
+      "projectId": 3,
+      "title": "遠端對話電影海報組",
+      "price": 300,
+      "contents": [{ "item": "獨家簽名海報乙張" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image59.png?raw=true"
+    },
+    {
+      "id": 8,
+      "projectId": 3,
+      "title": "遠端對話劇照訪談組",
+      "price": 700,
+      "contents": [{ "item": "獨家簽名劇照訪談集乙本" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image61.png?raw=true"
+    },
+    {
+      "id": 9,
+      "projectId": 3,
+      "title": "遠端對話手機支架組",
+      "price": 1000,
+      "contents": [{ "item": "特色手機支架乙支" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image60.png?raw=true"
+    },
+    {
+      "id": 10,
+      "projectId": 4,
+      "title": "CLAW MACHINE電影海報組",
+      "price": 500,
+      "contents": [{ "item": "獨家簽名海報乙張" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image59.png?raw=true"
+    },
+    {
+      "id": 11,
+      "projectId": 4,
+      "title": "CLAW MACHINE劇照訪談組",
+      "price": 700,
+      "contents": [{ "item": "獨家簽名劇照訪談集乙本" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image61.png?raw=true"
+    },
+    {
+      "id": 12,
+      "projectId": 4,
+      "title": "CLAW MACHINE手機支架組",
+      "price": 1100,
+      "contents": [{ "item": "特色手機支架乙支" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image60.png?raw=true"
+    },
+    {
+      "id": 13,
+      "projectId": 5,
+      "title": "黑色照片電影海報組",
+      "price": 500,
+      "contents": [{ "item": "獨家簽名海報乙張" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image59.png?raw=true"
+    },
+    {
+      "id": 14,
+      "projectId": 5,
+      "title": "黑色照片劇照訪談組",
+      "price": 700,
+      "contents": [{ "item": "獨家簽名劇照訪談集乙本" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image61.png?raw=true"
+    },
+    {
+      "id": 15,
+      "projectId": 5,
+      "title": "黑色照片手機支架組",
+      "price": 1100,
+      "contents": [{ "item": "特色手機支架乙支" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image60.png?raw=true"
+    },
+    {
+      "id": 16,
+      "projectId": 6,
+      "title": "魔羯男孩電影海報組",
+      "price": 500,
+      "contents": [{ "item": "獨家簽名海報乙張" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image59.png?raw=true"
+    },
+    {
+      "id": 17,
+      "projectId": 6,
+      "title": "魔羯男孩劇照訪談組",
+      "price": 700,
+      "contents": [{ "item": "獨家簽名劇照訪談集乙本" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image61.png?raw=true"
+    },
+    {
+      "id": 18,
+      "projectId": 6,
+      "title": "魔羯男孩手機支架組",
+      "price": 1300,
+      "contents": [{ "item": "特色手機支架乙支" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image60.png?raw=true"
+    },
+    {
+      "id": 19,
+      "projectId": 7,
+      "title": "末日遠行電影海報組",
+      "price": 800,
+      "contents": [{ "item": "獨家簽名海報乙張" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image59.png?raw=true"
+    },
+    {
+      "id": 20,
+      "projectId": 7,
+      "title": "末日遠行劇照訪談組",
+      "price": 1200,
+      "contents": [{ "item": "獨家簽名劇照訪談集乙本" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image61.png?raw=true"
+    },
+    {
+      "id": 21,
+      "projectId": 7,
+      "title": "末日遠行手機支架組",
+      "price": 1800,
+      "contents": [{ "item": "特色手機支架乙支" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image60.png?raw=true"
+    },
+    {
+      "id": 22,
+      "projectId": 8,
+      "title": "IQBA電影海報組",
+      "price": 1000,
+      "contents": [{ "item": "獨家簽名海報乙張" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image59.png?raw=true"
+    },
+    {
+      "id": 23,
+      "projectId": 8,
+      "title": "IQBA劇照訪談組",
+      "price": 1500,
+      "contents": [{ "item": "獨家簽名劇照訪談集乙本" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image61.png?raw=true"
+    },
+    {
+      "id": 24,
+      "projectId": 8,
+      "title": "IQBA手機支架組",
+      "price": 1800,
+      "contents": [{ "item": "特色手機支架乙支" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image60.png?raw=true"
+    },
+    {
+      "id": 25,
+      "projectId": 9,
+      "title": "迫影電影海報組",
+      "price": 600,
+      "contents": [{ "item": "獨家簽名海報乙張" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image59.png?raw=true"
+    },
+    {
+      "id": 26,
+      "projectId": 9,
+      "title": "迫影劇照訪談組",
+      "price": 900,
+      "contents": [{ "item": "獨家簽名劇照訪談集乙本" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
+      "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image61.png?raw=true"
+    },
+    {
+      "id": 27,
+      "projectId": 9,
+      "title": "迫影手機支架組",
+      "price": 1400,
       "contents": [{ "item": "特色手機支架乙支" }, { "item": "獨家酷卡乙組" }, { "item": "首輪交換券乙張" }, { "item": "片尾感謝名單" }, { "item": "Vber Eat 100元折價券" }],
       "image": "https://github.com/s851218/Project-FilmNest/blob/main/assets/images/image60.png?raw=true"
     }
