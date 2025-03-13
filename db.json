@@ -488,6 +488,7 @@
       "projectId": 1,
       "userId": 3,
       "content": "很喜歡這樣紀錄片的風格，期待創作者能做出更多的作品",
+      "isIncognito": false,
       "reply": "感謝支持",
       "replyDate": "Sun Aug 04 2024 18:30:00 GMT+0800 (台北標準時間)",
       "date": "Sun Aug 04 2024 17:30:00 GMT+0800 (台北標準時間)"
@@ -497,6 +498,7 @@
       "projectId": 1,
       "userId": 3,
       "content": "很喜歡這樣紀錄片的風格，期待創作者能做出更多的作品",
+      "isIncognito": false,
       "reply": "感謝支持",
       "replyDate": "Sun Aug 04 2024 19:30:00 GMT+0800 (台北標準時間)",
       "date": "Sun Aug 04 2024 18:30:00 GMT+0800 (台北標準時間)"
@@ -506,6 +508,7 @@
       "projectId": 1,
       "userId": 3,
       "content": "很喜歡這樣紀錄片的風格，期待創作者能做出更多的作品",
+      "isIncognito": false,
       "reply": "",
       "replyDate": "",
       "date": "Sun Aug 04 2024 19:30:00 GMT+0800 (台北標準時間)"
@@ -515,6 +518,7 @@
       "projectId": 2,
       "userId": 3,
       "content": "很喜歡這樣紀錄片的風格，期待創作者能做出更多的作品",
+      "isIncognito": false,
       "reply": "",
       "replyDate": "",
       "date": "Sun Aug 04 2024 19:30:00 GMT+0800 (台北標準時間)"
@@ -524,6 +528,7 @@
       "projectId": 3,
       "userId": 3,
       "content": "很喜歡這樣紀錄片的風格，期待創作者能做出更多的作品",
+      "isIncognito": false,
       "reply": "",
       "replyDate": "",
       "date": "Sun Aug 04 2024 19:30:00 GMT+0800 (台北標準時間)"
@@ -533,6 +538,7 @@
       "projectId": 4,
       "userId": 3,
       "content": "很喜歡這樣紀錄片的風格，期待創作者能做出更多的作品",
+      "isIncognito": false,
       "reply": "",
       "replyDate": "",
       "date": "Sun Aug 04 2024 19:30:00 GMT+0800 (台北標準時間)"
@@ -542,6 +548,7 @@
       "projectId": 4,
       "userId": 3,
       "content": "很喜歡這樣紀錄片的風格，期待創作者能做出更多的作品",
+      "isIncognito": false,
       "reply": "",
       "replyDate": "",
       "date": "Sun Aug 04 2024 19:30:00 GMT+0800 (台北標準時間)"
