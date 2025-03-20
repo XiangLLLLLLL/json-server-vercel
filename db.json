@@ -859,6 +859,7 @@
       "productId": 1,
       "orderId": "WINDS1742384171000",
       "message": "",
+      "reason": "",
       "isIncognito": true,
       "paymentMethod": {}
     },
@@ -885,6 +886,7 @@
       "productId": 1,
       "orderId": "WINDS1742384171331",
       "message": "",
+      "reason": "",
       "isIncognito": true,
       "paymentMethod": {
         "type": 0,
