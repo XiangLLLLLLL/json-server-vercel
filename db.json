@@ -893,6 +893,36 @@
         "cardType": "creditCard",
         "method": "oneTime"
       }
+    },
+    {
+      "orderFile": {
+        "Recipient": "周禹丞",
+        "phone": "0923456789",
+        "email": "example@gmail.com",
+        "address": "100臺北市中正區許昌街17號"
+      },
+      "orderStatus": 1,
+      "paymentStatus": 1,
+      "shippingStatus": 1,
+      "bonus": 0,
+      "totalPrice": 1000,
+      "createdAt": "Thu Mar 20 2025 16:42:04 GMT+0800 (台北標準時間)",
+      "paymentTime": "Thu Mar 20 2025 16:43:22 GMT+0800 (台北標準時間)",
+      "canCancel": false,
+      "canRefund": false,
+      "canReturn": true,
+      "userId": 1,
+      "projectId": 3,
+      "productId": 9,
+      "orderId": "WINDS1742460124485",
+      "message": "",
+      "isIncognito": true,
+      "id": 3,
+      "paymentMethod": {
+        "type": 0,
+        "cardType": "creditCard",
+        "method": "oneTime"
+      }
     }
   ],
   "favorites": [
