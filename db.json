@@ -11,7 +11,7 @@
         "phone": "0923456789",
         "birthdate": "1990-01-01",
         "bio": "畢業於世新大學廣播電視電影學系電影組,現就讀國立臺北藝術大學電影創作學系研究所導演組。善於觀察溫柔情感和人際關係的鏡頭捕捉,近年來從紀錄片創作中找到極大樂趣。希望能藉由更多的影像創作中找到真實且精彩的人生。攝影作品數部橫跨MV、廣告、形象、紀錄/劇情短片各類商業及藝術領域。最新創作紀錄短片《遠端對話》(2022)在三級警戒疫情下的臺北,一位香港職業演員被困在永和的隔離生活,紀錄了三個月中他與唯一在遠方的親人,靠著視訊互相依偎的溫馨感人故事。此片榮獲2022年南方影展「疫情一天單元」首獎、中華電信MOD金片子競賽——蹲點台灣紀錄片佳作、第四屆福爾摩沙國際電影節榮獲「最佳療癒疫情短片」以及韓國阿波里亞國際電影節紀錄短片類入圍。過去劇情片導演作品《晃遊》(2020)也曾入圍新北市學生影像新星獎、洛杉磯Ourfest酷兒影展、韓國、香港多國同志電影節。",
-        "userImageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E5%B0%8E%E6%BC%94%E7%85%A71-8c6fe51b.jpg"
+        "userImageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E5%B0%8E%E6%BC%94%E7%85%A71-f410055e.jpg"
       },
       "hasStudio": true
     },
@@ -59,7 +59,7 @@
         "studioFb": "https://www.facebook.com/",
         "studioIg": "https://www.instagram.com/?hl=zh-tw",
         "studioLine": "https://www.line.me/tw/",
-        "studioImageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E5%B0%8E%E6%BC%94%E7%85%A71-8c6fe51b.jpg"
+        "studioImageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E5%B0%8E%E6%BC%94%E7%85%A71-f410055e.jpg"
       }
     },
     {
@@ -86,15 +86,15 @@
       "userId": 1,
       "studioId": 1,
       "projectTitle": "外送人員不為人知的辛勞－紀錄片《追風者》募資計畫",
-      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%855-221c7ac5.png",
+      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%855-735e8441.png",
       "otherImages": [
-        { "id": "1739949384244", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%852-06018df4.png" },
-        { "id": "1739949528982", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%857-ffb3129e.png" },
-        { "id": "1739949577856", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%851-7dadc82e.png" },
-        { "id": "1739949625941", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%853-829d2680.png" },
-        { "id": "1739949663781", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%854-18a03343.png" },
-        { "id": "1739949699787", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%856-5318f689.png" },
-        { "id": "1739949699788", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%858-a85cc256.png" }
+        { "id": "1739949384244", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%852-446839ec.png" },
+        { "id": "1739949528982", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%857-4049b9af.png" },
+        { "id": "1739949577856", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%851-97a21dd8.png" },
+        { "id": "1739949625941", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%853-d50e424f.png" },
+        { "id": "1739949663781", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%854-93d17358.png" },
+        { "id": "1739949699787", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%856-ccaf3198.png" },
+        { "id": "1739949699788", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%858-2af8985d.png" }
       ],
       "summary": "他們穿梭於霓虹之下，奔馳於風雨之中，道路上常見的外送員身影，他們背後的人生究竟為何？",
       "category": "紀錄片",
@@ -112,7 +112,7 @@
           "name": "周禹丞",
           "jobTitle": "導演",
           "introduction": "畢業於世新大學廣播電視電影學系電影組，現就讀國立臺北藝術大學電影創作學系研究所導演組。\n\n善於觀察溫柔情感和人際關係的鏡頭捕捉，近年來從紀錄片創作中找到極大樂趣。希望能藉由更多的影像創作中找到真實且精彩的人生。攝影作品數部橫跨MV、廣告、形象、紀錄/劇情短片各類商業及藝術領域。",
-          "photo": "https://s851218.github.io/Project-FilmNest/assets/%E5%B0%8E%E6%BC%94%E7%85%A71-8c6fe51b.jpg"
+          "photo": "https://s851218.github.io/Project-FilmNest/assets/%E5%B0%8E%E6%BC%94%E7%85%A71-f410055e.jpg"
         },
         {
           "id": 2,
@@ -137,10 +137,10 @@
       "projectTitle": "金穗獎作品長片《孤獨時光》募資計畫",
       "projectImage": "https://s851218.github.io/Project-FilmNest/assets/%E9%A6%96%E9%A0%81_%E8%BC%AA%E6%92%AD_02-d6dfed54.jpg",
       "otherImages": [
-        { "id": "1979949766485", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/The-Lonely-Time_still_a-a1312039.jpeg" },
-        { "id": "1749949528982", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/The-Lonely-Time_still_b-53efd981.jpeg" },
-        { "id": "1759949577856", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/The-Lonely-Time_still_c-09de1cb1.jpeg" },
-        { "id": "2009949577856", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/The-Lonely-Time_still_d-5aaf8037.jpeg" }
+        { "id": "1979949766485", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/The-Lonely-Time_still_a-cdbce1ec.jpeg" },
+        { "id": "1749949528982", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/The-Lonely-Time_still_b-7c8f33dd.jpeg" },
+        { "id": "1759949577856", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/The-Lonely-Time_still_b-7c8f33dd.jpeg" },
+        { "id": "2009949577856", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/The-Lonely-Time_still_c-6b28a67b.jpeg" }
       ],
       "summary": "一張不翼而飛的遊戲光碟，引發對好友的猜疑，年幼的初中少年，要如何面對艱難而常見的成長課題？",
       "category": "紀錄片",
@@ -158,7 +158,7 @@
           "name": "周禹丞",
           "jobTitle": "導演",
           "introduction": "畢業於世新大學廣播電視電影學系電影組，現就讀國立臺北藝術大學電影創作學系研究所導演組。\n\n善於觀察溫柔情感和人際關係的鏡頭捕捉，近年來從紀錄片創作中找到極大樂趣。希望能藉由更多的影像創作中找到真實且精彩的人生。攝影作品數部橫跨MV、廣告、形象、紀錄/劇情短片各類商業及藝術領域。",
-          "photo": "https://s851218.github.io/Project-FilmNest/assets/%E5%B0%8E%E6%BC%94%E7%85%A71-8c6fe51b.jpg"
+          "photo": "https://s851218.github.io/Project-FilmNest/assets/%E5%B0%8E%E6%BC%94%E7%85%A71-f410055e.jpg"
         }
       ]
     },
@@ -169,9 +169,9 @@
       "projectTitle": "遠端對話",
       "projectImage": "https://s851218.github.io/Project-FilmNest/assets/%E9%A6%96%E9%A0%81_%E8%BC%AA%E6%92%AD_03-64e43ee6.jpg",
       "otherImages": [
-        { "id": "1969949775839", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%852-06018df4.png" },
-        { "id": "1769949528982", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%857-ffb3129e.png" },
-        { "id": "1779949577856", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E8%BF%BD%E9%A2%A8%E8%80%851-7dadc82e.png" }
+        { "id": "1969949775839", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E9%81%A0%E7%AB%AF%E5%B0%8D%E8%A9%B1%E6%B5%B7%E5%A0%B12-326f5921.jpg" },
+        { "id": "1769949528982", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E9%81%A0%E7%AB%AF%E5%B0%8D%E8%A9%B12-b7437ace.jpg" },
+        { "id": "1779949577856", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/%E9%81%A0%E7%AB%AF%E5%B0%8D%E8%A9%B11-2ce12c6b.png" }
       ],
       "summary": "疫情之下的台北，異鄉人對家人的思念",
       "category": "紀錄片",
@@ -189,7 +189,7 @@
           "name": "周禹丞",
           "jobTitle": "導演",
           "introduction": "畢業於世新大學廣播電視電影學系電影組，現就讀國立臺北藝術大學電影創作學系研究所導演組。\n\n善於觀察溫柔情感和人際關係的鏡頭捕捉，近年來從紀錄片創作中找到極大樂趣。希望能藉由更多的影像創作中找到真實且精彩的人生。攝影作品數部橫跨MV、廣告、形象、紀錄/劇情短片各類商業及藝術領域。",
-          "photo": "https://s851218.github.io/Project-FilmNest/assets/%E5%B0%8E%E6%BC%94%E7%85%A71-8c6fe51b.jpg"
+          "photo": "https://s851218.github.io/Project-FilmNest/assets/%E5%B0%8E%E6%BC%94%E7%85%A71-f410055e.jpg"
         }
       ]
     },
@@ -200,9 +200,9 @@
       "projectTitle": "CLAW MACHINE",
       "projectImage": "https://s851218.github.io/Project-FilmNest/assets/%E9%A6%96%E9%A0%81_%E8%BC%AA%E6%92%AD_04-4f9f70a7.jpg",
       "otherImages": [
-        { "id": "1959949786172", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/Claw-Machine_1-b8f62469.jpg" },
-        { "id": "1789949528982", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/Claw-Machine_2-d0565453.jpg" },
-        { "id": "1799949577856", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/Claw-Machine_3-509573be.jpg" }
+        { "id": "1959949786172", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/Claw-Machine_1-df940e66.jpg" },
+        { "id": "1789949528982", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/Claw-Machine_2-6ab8707a.jpg" },
+        { "id": "1799949577856", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/Claw-Machine_3-fe59f5f1.jpg" }
       ],
       "summary": "度過悲慘一天的女子，將希望寄託給一間散發異色光輝的夾娃娃機店",
       "category": "愛情",
@@ -220,7 +220,7 @@
           "name": "周禹丞",
           "jobTitle": "導演",
           "introduction": "畢業於世新大學廣播電視電影學系電影組，現就讀國立臺北藝術大學電影創作學系研究所導演組。\n\n善於觀察溫柔情感和人際關係的鏡頭捕捉，近年來從紀錄片創作中找到極大樂趣。希望能藉由更多的影像創作中找到真實且精彩的人生。攝影作品數部橫跨MV、廣告、形象、紀錄/劇情短片各類商業及藝術領域。",
-          "photo": "https://s851218.github.io/Project-FilmNest/assets/%E5%B0%8E%E6%BC%94%E7%85%A71-8c6fe51b.jpg"
+          "photo": "https://s851218.github.io/Project-FilmNest/assets/%E5%B0%8E%E6%BC%94%E7%85%A71-f410055e.jpg"
         }
       ]
     },
@@ -231,8 +231,8 @@
       "projectTitle": "黑色照片",
       "projectImage": "https://s851218.github.io/Project-FilmNest/assets/%E9%A6%96%E9%A0%81_%E8%BC%AA%E6%92%AD_05-6564917b.jpg",
       "otherImages": [
-        { "id": "1949949801459", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/black_photo_1-245b1104.jpg" },
-        { "id": "1809949528982", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/black_photo_2-e886640f.jpg" }
+        { "id": "1949949801459", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/black_photo_1-92f8d97e.jpg" },
+        { "id": "1809949528982", "imageUrl": "https://s851218.github.io/Project-FilmNest/assets/black_photo_2-5ee9afc0.jpg" }
       ],
       "summary": "消逝的愛情，遺留著執念，如同往夜色拍去的黑色照片",
       "category": "愛情",
@@ -259,7 +259,7 @@
       "userId": 2,
       "studioId": 2,
       "projectTitle": "畢業製作《魔羯男孩》募資計畫-談青春成長的自我受限",
-      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/image26-9ae63d8f.png",
+      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/image26-fc979f49.png",
       "otherImages": [
         { "id": "1939949810712", "imageUrl": "https://images.unsplash.com/photo-1555432760-7f497537ad28?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
         { "id": "1829949528982", "imageUrl": "https://images.unsplash.com/photo-1496475069387-ccbdfca2a1fa?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
@@ -290,7 +290,7 @@
       "userId": 2,
       "studioId": 2,
       "projectTitle": "金狗獎最佳短片《末日遠行》長片募資計畫",
-      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/image33-41a0232e.png",
+      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/image33-e75ceb0f.png",
       "otherImages": [
         { "id": "1929949820527", "imageUrl": "https://images.unsplash.com/photo-1620150611476-dbe13ebef8d8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
         { "id": "1849949528982", "imageUrl": "https://images.unsplash.com/photo-1494201503071-da9e3caaf3d5?q=80&w=2093&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
@@ -321,7 +321,7 @@
       "userId": 2,
       "studioId": 2,
       "projectTitle": "《IQBA》：春上村樹授權改編募資計畫",
-      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/image28-e753d2df.png",
+      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/image28-30e64dab.png",
       "otherImages": [
         { "id": "1919949829527", "imageUrl": "https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
         { "id": "1869949528982", "imageUrl": "https://images.unsplash.com/photo-1587930734782-4fe289d9ea8f?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
@@ -352,7 +352,7 @@
       "userId": 2,
       "studioId": 2,
       "projectTitle": "學生動作片《迫影》｜募資計畫",
-      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/image36-575b2b23.png",
+      "projectImage": "https://s851218.github.io/Project-FilmNest/assets/image36-858510d1.png",
       "otherImages": [
         { "id": "1909949837116", "imageUrl": "https://images.unsplash.com/photo-1633187841127-8b3e776b6a41?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
         { "id": "1889949528982", "imageUrl": "https://images.unsplash.com/photo-1618371690240-e0d46eead4b8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
